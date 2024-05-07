@@ -1,5 +1,7 @@
 # React Tanning 🌴
 
+![Screenshot 2024-05-07 at 16 41 24](https://github.com/padunk/react-tanning/assets/25411350/d3011209-16de-4fd7-9828-ba47362c8629)
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
@@ -10,6 +12,7 @@ Currently, two official plugins are available:
 ## TanStack
 
 This template is based on Vite React basic template.
+
 
 This template is using [TanStack](https://tanstack.com):
 
