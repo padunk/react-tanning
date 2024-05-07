@@ -11,14 +11,16 @@ Currently, two official plugins are available:
 
 This template is based on Vite React basic template.
 
-This template is using TanStack:
+This template is using [TanStack](https://tanstack.com):
 
 - Router
 - Query
-- Table
 - Form
+- Table
 
 Code in form.lazy.tsx and table.lazy.tsx is from TanStack Stackblitz example.
+
+Easily remove any TanStack that is not your stack.
 
 ## Expanding the ESLint configuration
 
