@@ -28,6 +28,12 @@ export const Route = createRootRoute({
           <Link to='/about' className='[&.active]:text-orange-500'>
             About
           </Link>
+          <Link to='/form' className='[&.active]:text-orange-500'>
+            Form
+          </Link>
+          <Link to='/table' className='[&.active]:text-orange-500'>
+            Form
+          </Link>
         </div>
         <hr />
         <QueryClientProvider client={queryClient}>
