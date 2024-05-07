@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { createLazyFileRoute } from '@tanstack/react-router'
 
 import reactLogo from '../assets/react.svg'
+import tailwindLogo from '../assets/tailwind.svg'
 import tanstackLogo from '../assets/tanstack.png'
 
 export const Route = createLazyFileRoute('/')({
@@ -25,8 +26,14 @@ function App() {
         <a href='https://tanstack.com' target='_blank'>
           <img src={tanstackLogo} className='logo' alt='TanStack logo' />
         </a>
+        <a href='https://tailwind.com' target='_blank'>
+          <img src={tailwindLogo} className='logo' alt='Tailwind logo' />
+        </a>
       </div>
-      <h1>Vite + React + Tanstack</h1>
+      <h1>RVT3</h1>
+      <p className='font-bold'>
+        React + Vite + TypeScript + Tanstack + Tailwind
+      </p>
       <div className='card'>
         <button onClick={() => setCount((count) => count + 1)} className='mb-6'>
           count is {count}
