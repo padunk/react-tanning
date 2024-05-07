@@ -32,7 +32,7 @@ function App() {
       </div>
       <h1>React Tanning 🌴</h1>
       <p className='font-bold mt-2'>
-        React + Vite + TypeScript + Tanstack + Tailwind
+        React + Vite + TypeScript + TanStack + Tailwind
       </p>
       <div className='card'>
         <button onClick={() => setCount((count) => count + 1)} className='mb-6'>
