@@ -30,8 +30,8 @@ function App() {
           <img src={tailwindLogo} className='logo' alt='Tailwind logo' />
         </a>
       </div>
-      <h1>RVT3</h1>
-      <p className='font-bold'>
+      <h1>React Tanning 🌴</h1>
+      <p className='font-bold mt-2'>
         React + Vite + TypeScript + Tanstack + Tailwind
       </p>
       <div className='card'>
