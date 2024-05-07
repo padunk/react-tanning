@@ -32,7 +32,7 @@ export const Route = createRootRoute({
             Form
           </Link>
           <Link to='/table' className='[&.active]:text-orange-500'>
-            Form
+            Table
           </Link>
         </div>
         <hr />
