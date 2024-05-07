@@ -25,8 +25,8 @@ export const Route = createRootRoute({
           <Link to='/' className='[&.active]:text-orange-500'>
             Home
           </Link>{' '}
-          <Link to='/about' className='[&.active]:text-orange-500'>
-            About
+          <Link to='/query' className='[&.active]:text-orange-500'>
+            Query
           </Link>
           <Link to='/form' className='[&.active]:text-orange-500'>
             Form
