@@ -2,6 +2,14 @@
 
 ![Screenshot 2024-05-07 at 16 41 24](https://github.com/padunk/react-tanning/assets/25411350/d3011209-16de-4fd7-9828-ba47362c8629)
 
+Create your own project based on this template by running:
+
+```bash
+npx degit /padunk/react-tanning <YOUR PROJECT NAME>
+cd <YOUR PROJECT NAME>
+npm install
+```
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
@@ -9,19 +17,16 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## TanStack
+## [TanStack](https://tanstack.com)
 
-This template is based on Vite React basic template.
-
-
-This template is using [TanStack](https://tanstack.com):
+This template is based on Vite React basic template and add these TanStacks:
 
 - Router
 - Query
 - Form
 - Table
 
-Code in form.lazy.tsx and table.lazy.tsx is from TanStack Stackblitz example.
+Code in `form.lazy.tsx` and `table.lazy.tsx` is from TanStack's Stackblitz example.
 
 Easily remove any TanStack that is not your stack.
 
