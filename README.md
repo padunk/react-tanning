@@ -5,7 +5,7 @@
 Create your own project based on this template by running:
 
 ```bash
-npx degit /padunk/react-tanning <YOUR PROJECT NAME>
+npx degit padunk/react-tanning <YOUR PROJECT NAME>
 cd <YOUR PROJECT NAME>
 npm install
 ```
