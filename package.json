@@ -14,13 +14,11 @@
     "@tanstack/react-query": "^5.35.1",
     "@tanstack/react-router": "^1.31.20",
     "@tanstack/react-table": "^8.16.0",
-    "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.38",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "tailwindcss": "^4.0.8"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.0.8",
     "@tanstack/eslint-plugin-query": "^5.32.1",
     "@tanstack/router-devtools": "^1.31.20",
     "@tanstack/router-vite-plugin": "^1.31.18",
@@ -32,6 +30,7 @@
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "tailwindcss": "^4.0.8",
     "typescript": "^5.2.2",
     "vite": "^6.1.1"
   }

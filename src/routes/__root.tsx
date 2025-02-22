@@ -21,7 +21,7 @@ export const Route = createRootRoute({
     )
     return (
       <>
-        <div className='p-2 flex gap-2'>
+        <div className='p-2 flex gap-2 absolute top-0 left-0 w-full border-b-2 border-white'>
           <Link to='/' className='[&.active]:text-orange-500'>
             Home
           </Link>{' '}
@@ -35,9 +35,10 @@ export const Route = createRootRoute({
             Table
           </Link>
         </div>
-        <hr />
         <QueryClientProvider client={queryClient}>
-          <Outlet />
+          <div className='mt-32'>
+            <Outlet />
+          </div>
         </QueryClientProvider>
         <TanStackRouterDevtools />
       </>
